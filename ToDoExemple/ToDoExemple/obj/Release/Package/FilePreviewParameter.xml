@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="eni" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="eni/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="SecurityConnection-Web.config Connection String" description="SecurityConnection Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." value="Data Source=.\SQLEXPRESS;Initial Catalog=SecurityDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SecurityConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ToDoConnectionString-Web.config Connection String" description="ToDoConnectionString Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." value="Data Source=.\SQLEXPRESS;Initial Catalog=ToDoDataBase;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ToDoConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,32 @@
+﻿@using Microsoft.Security.Application
+@{
+    ViewBag.Title = "Forgery";
+}
+
+<h2>Forgery</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <text>
+        Nom : <input type="text" id="nom"/>
+        <br/>
+        <input type="submit" value="OK"/>
+    </text>
+    
+    //Cross-Site Scripting avec Helper
+    <div id="message">
+        @Ajax.JavaScriptStringEncode(ViewBag.Message)
+    </div>
+
+    //Cross-Site Scripting avec AntiXSS
+    
+    <div id="message">
+        @Encoder.JavaScriptEncode(ViewBag.Message)
+    </div>
+
+    //Injection SQL
+    //voir notes
+}
+

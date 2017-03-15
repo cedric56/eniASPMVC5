@@ -1,0 +1,66 @@
+﻿@using ToDoExemple.Models;
+@using ToDoExemple.Helpers;
+@using ToDoExemple.Properties;
+
+@*Defintion du modele de la page DataContext en gros*@
+@model IEnumerable<ToDo> 
+
+@{   
+    ViewBag.Title = "Index";
+}
+
+<h2>@Settings.Default.Index</h2>
+<h2>@Globalization.ResourceToDo.Index</h2>
+
+@*Methode d'extension*@
+@Html.MyLabel("test", "test2")
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>           
+            @Html.DisplayNameFor(model => model.Titre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Etat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Creation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MiseAJour)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Etat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Creation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MiseAJour)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ToDoId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ToDoId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ToDoId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <input type="button" id="btn" value="Go" />
+    <div id="div1"></div>
+
+    <script>
+        $(function(){
+            $("#btn").click(
+                function () {
+                    var url = "http://localhost:56844/api/webapi/3";
+                    $.post(url, function(data)
+                    {
+                        $("#div1").html(data);
+                    });
+                }
+                )
+        });
+    </script>
+</body>
+</html>

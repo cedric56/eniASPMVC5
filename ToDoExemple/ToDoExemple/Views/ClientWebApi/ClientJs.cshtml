@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "ClientJs";
+}
+
+<h2>ClientJs</h2>
+@section Scripts{
+    <script>
+        $(function(){
+            $("#btn").click(
+                function () {
+                    var url = "http://localhost:56844/api/webapi/3";
+                    $.post(url, function(data)
+                    {
+                        $("#div1").html(data);
+                    });
+                }
+                )
+        });
+    </script>
+    
+    
+    }
+
+<input type="button" id="btn" value="Go" />
+<div id="div1"></div>

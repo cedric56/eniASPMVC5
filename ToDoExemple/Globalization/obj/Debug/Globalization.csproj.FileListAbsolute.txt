@@ -1,0 +1,12 @@
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Debug\Globalization.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Debug\Globalization.pdb
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Debug\en-US\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.ResourceToDo.en-US.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\en-US\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.pdb
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Debug\es-ES\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.ResourceToDo.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\Globalization.ResourceToDo.es-ES.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Debug\es-ES\Globalization.resources.dll

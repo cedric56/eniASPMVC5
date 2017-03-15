@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Ajax";
+}
+
+<h2>Test avec Ajax</h2>
+@* $ represente jQuery *@
+@section Scripts
+{
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>   
+        //debugger;//Ajouté pour activer debugger solution1
+
+        //Code en jQuery
+        $(function () {
+            $("#AjaxBtn").click(
+                function () {
+                    var url = "/Ajax/ContenuAjax";
+                    $.get(url, null, function (data) {
+                        //Recupération en callback
+                        //console.log("Coucou : "+data);
+                        $("#Message").html(data);
+                    });
+                });
+        });
+
+        //Ajoute un calendrier
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+
+    </script>
+    }
+
+<a href="#" id="AjaxBtn">Contenu avant Ajax</a>
+<div id="Message"></div>
+<br/>
+<br />
+<br />
+<br />
+<p>Date: <input type="text" id="datepicker"></p>
+
+

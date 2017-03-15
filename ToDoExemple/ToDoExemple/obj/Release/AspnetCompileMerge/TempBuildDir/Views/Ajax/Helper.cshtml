@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Ajax avec Helper";
+}
+
+<h2>Ajax avec Helper</h2>
+@*Autre ecriture possible qe la page Index*@
+
+@Ajax.ActionLink("Contenu avec Ajax", "ContenuAjax", new AjaxOptions()
+{
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET",
+    UpdateTargetId="Message"
+});
+
+<div id="Message"></div>

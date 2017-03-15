@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Cache avec param";
+}
+
+<h2>Cache avec param @ViewBag.Param1</h2>
+<h3>@ViewBag.Message</h3>
+
+<script>
+    var i = 10;
+    //if (i == "10") //Le entier est considéré comme le string
+    if (i === "10") //Compare la valeur et le type
+        alert("ok");
+    else
+        alert("nok");
+
+    //Les portées sont soit globales soit propre à la méthode
+
+    //var j = 2;
+    j = 2;//Sans var c'est global
+    function f1()
+    {
+         j = 1;
+    }
+    f1();
+    alert(j);
+    
+</script>

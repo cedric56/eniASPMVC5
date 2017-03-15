@@ -1,0 +1,12 @@
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\DataBase_First.exe.config
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\DataBase_First.exe
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\DataBase_First.pdb
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\EntityFramework.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\EntityFramework.xml
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\fr\EntityFramework.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\bin\Debug\fr\EntityFramework.SqlServer.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\obj\Debug\DataBase_First.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\obj\Debug\DataBase_First.exe
+C:\Users\Administrateur\Documents\eni\ToDoExemple\DataBase_First\obj\Debug\DataBase_First.pdb

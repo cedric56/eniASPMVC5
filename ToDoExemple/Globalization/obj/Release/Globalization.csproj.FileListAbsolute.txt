@@ -1,0 +1,13 @@
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Release\Globalization.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Release\Globalization.pdb
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Release\en-US\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\bin\Release\es-ES\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.ResourceToDo.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.ResourceToDo.en-US.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.ResourceToDo.es-ES.resources
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\en-US\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\es-ES\Globalization.resources.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.dll
+C:\Users\Administrateur\Documents\eni\ToDoExemple\Globalization\obj\Release\Globalization.pdb

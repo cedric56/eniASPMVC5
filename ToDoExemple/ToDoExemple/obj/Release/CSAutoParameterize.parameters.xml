@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SecurityConnection-Web.config Connection String" description="SecurityConnection Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Data Source=.\SQLEXPRESS;Initial Catalog=SecurityDB;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SecurityConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ToDoConnectionString-Web.config Connection String" description="ToDoConnectionString Chaîne de connexion utilisée dans web.config par l’application pour accéder à la base de données." defaultValue="Data Source=.\SQLEXPRESS;Initial Catalog=ToDoDataBase;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrateur\\Documents\\eni\\ToDoExemple\\ToDoExemple\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ToDoConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

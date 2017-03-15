@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "ObjectCache";
+}
+
+<h2>ObjectCache</h2>
+@*Deux facons differentes d'acceder au cache*@
+<h3>Cache 20" glissant : @HttpContext.Current.Cache["MaVoiture"]</h3>
+<h3>Cache 20" glissant : @ViewBag.Message2</h3>
+
+
+<h3>Cache 20" absolute : @ViewBag.Message1</h3>
